@@ -2,3 +2,6 @@ dependencies:
   - name: mariadb
     version: 7.x.x
     repository: https://kubernetes-charts.storage.googleapis.com/
+  - name: fdc101082/phpfpm-app
+    version: 0.1.0
+    repository: https://hub.docker.com/r/fdc101082/phpfpm-app
