@@ -6,7 +6,7 @@ networks:
 
 services:
   phpfpm:
-    image: fdc101082/phpfpm-app:0.1.0
+    image: fdc101082/karkee-sysconf:0.1.0
     networks:
       - app-tier
   nginx:
