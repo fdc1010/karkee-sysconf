@@ -25,7 +25,7 @@ services:
     environment:
         - MARIADB_USER=KarkeeUserA
         - MARIADB_PASSWORD=karkeeABCqwe123
-        - MARIADB_DATABASE=db_karkee
+        - MARIADB_DATABASE=db_karkee_staging
         - ALLOW_EMPTY_PASSWORD=yes
     networks:
       - app-tier
