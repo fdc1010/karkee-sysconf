@@ -2,9 +2,3 @@ dependencies:
   - name: mariadb
     version: latest
     repository: https://kubernetes-charts.storage.googleapis.com/
-  - name: phpfpm
-    version: 0.1.0
-    repository: https://hub.docker.com/r/fdc101082/karkee-sysconf/
-  - name: nginx
-    version: latest
-    repository: https://hub.docker.com/r/bitnami/nginx/
