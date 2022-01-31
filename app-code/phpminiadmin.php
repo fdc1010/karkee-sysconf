@@ -9,13 +9,13 @@
  Dual licensed: GPL v2 and MIT, see texts at http://opensource.org/licenses/
 */
 
- $ACCESS_PWD=''; #!!!IMPORTANT!!! this is script access password, SET IT if you want to protect you DB from public access
+ $ACCESS_PWD='KarkeeRoot#1Frank@101082:v0.1.0C'; #!!!IMPORTANT!!! this is script access password, SET IT if you want to protect you DB from public access
 
  #DEFAULT db connection settings
  # --- WARNING! --- if you set defaults - it's recommended to set $ACCESS_PWD to protect your db!
  $DBDEF=array(
- 'user'=>"",#required
- 'pwd'=>"", #required
+ 'user'=>"karkee_user.0.1.0",#required
+ 'pwd'=>"karkee_user.0.1.0", #required
  'db'=>"",  #optional, default DB
  'host'=>"",#optional
  'port'=>"",#optional

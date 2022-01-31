@@ -1,9 +1,9 @@
-# Default values for phpfpm-app.
+# Default values for karkee-sysconf.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: fdc101082/phpfpm-app
+  repository: docker.io/fdc101082/karkee-sysconf
   tag: 0.1.0
   pullPolicy: IfNotPresent
 nginxService:

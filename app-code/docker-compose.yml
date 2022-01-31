@@ -6,7 +6,7 @@ networks:
 
 services:
   phpfpm:
-    image: fdc101082/phpfpm-app:0.1.0
+    image: fdc101082/karkee-sysconf:0.1.0
     networks:
       - app-tier
   nginx:
@@ -23,8 +23,8 @@ services:
   mariadb:
     image: bitnami/mariadb:latest
     environment:
-        - MARIADB_USER=fredcarz
-        - MARIADB_PASSWORD=Fdc@101082#
+        - MARIADB_USER=root
+        - MARIADB_PASSWORD=KarkeeRoot#1Frank@101082:v0.1.0C
         - MARIADB_DATABASE=db_karkee
         - ALLOW_EMPTY_PASSWORD=yes
     networks:

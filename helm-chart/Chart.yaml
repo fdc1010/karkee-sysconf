@@ -1,4 +1,4 @@
 apiVersion: v1
 description: Karkee System Configuration (Infra/Arch)
-name: phpfpm-app
+name: karkee-sysconf
 version: 0.1.0
