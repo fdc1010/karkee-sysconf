@@ -16,7 +16,7 @@
  $DBDEF=array(
  'user'=>"karkee_user1-Staging",#required
  'pwd'=>"karkee_user1-Staging", #required
- 'db'=>"",  #optional, default DB
+ 'db'=>"db_karkee-staging",  #optional, default DB
  'host'=>"",#optional
  'port'=>"",#optional
  'chset'=>"utf8",#optional, default charset
