@@ -8,3 +8,6 @@ dependencies:
   - name: bitnami/nginx
     version: latest
     repository: https://hub.docker.com/r/bitnami/nginx/
+  - name: bitnami/php-fpm:latest
+    version: latest
+    repository: https://hub.docker.com/r/bitnami/php-fpm/
