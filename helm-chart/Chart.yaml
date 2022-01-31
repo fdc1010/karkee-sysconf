@@ -1,4 +1,4 @@
 apiVersion: v1
-description: A Helm chart for Kubernetes
-name: php-app
+description: Karkee System Configuration (Infra/Arch)
+name: phpfpm-app
 version: 0.1.0
