@@ -24,8 +24,8 @@ services:
     image: bitnami/mariadb:latest
     environment:
         - MARIADB_USER=root
-        - MARIADB_PASSWORD=KarkeeRoot#1Frank@101082:v0.1.0C
-        - MARIADB_DATABASE=db_karkee
+        - MARIADB_PASSWORD=KarkeeRoot#1Frank@101082:v0.1.0Staging
+        - MARIADB_DATABASE=db_karkee-staging
         - ALLOW_EMPTY_PASSWORD=yes
     networks:
       - app-tier
