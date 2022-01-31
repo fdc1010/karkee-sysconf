@@ -23,7 +23,7 @@ services:
   mariadb:
     image: bitnami/mariadb:latest
     environment:
-        - MARIADB_USER=root
+        - MARIADB_USER=karkee_root
         - MARIADB_PASSWORD=KarkeeRoot#1Frank@101082:v0.1.0Staging
         - MARIADB_DATABASE=db_karkee-staging
         - ALLOW_EMPTY_PASSWORD=yes
