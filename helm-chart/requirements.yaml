@@ -5,3 +5,6 @@ dependencies:
   - name: fdc101082/phpfpm-app
     version: 0.1.0
     repository: https://hub.docker.com/r/fdc101082/phpfpm-app
+  - name: bitnami/nginx
+    version: 1.19-debian-10
+    repository: https://hub.docker.com/r/bitnami/nginx
